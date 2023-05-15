@@ -1,0 +1,92 @@
+/*Custom Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/*CSS Variables*/
+:root{
+	--header-height: 6rem;
+	
+	/* Font Family */
+	--patua-font: 'Patua', sans-serif;
+	--poppins-font: 'Poppins', sans-serif;
+	
+	/* Colors */
+	--main-color: #FF5733;
+	--btn-color: #007CFF;
+   --focus-color: #000;
+   --heading-color: #F5F5F5;
+
+    /*Font Weight*/
+    --focus-font-weight: 700;
+}
+
+body{
+	  margin:0;
+	  font-family : var(--poppins-font);
+    background-image: url('https://www.electronics.com.bd/image/cache/catalog/banner/2021%20Banners/pattern/pattern-geek25-500x500.webp');
+}
+
+h1{
+	color : white;
+	text-align : center;
+	text-transform : uppercase;
+	font-weight : var(--focus-font-weight);
+	line-height : 1.1;
+	background : var(--main-color);
+	margin : 0;
+	padding : 20px 0;
+	
+}
+.custom-shadow{
+    display: inline-block;
+    font-size: 3rem;
+    color: #fff;
+    transform: rotate(-5deg);
+    text-shadow:  0 1px 0 hsl(52,7%,20%),                  0 2px 0 hsl(52,7%,18%),                  0 3px 0 hsl(52,7%,16%),                  0 4px 0 hsl(52,7%,14%),                  0 5px 0 hsl(52,7%,12%),                  0 6px 0 hsl(52,7%,10%),                  0 7px 0 hsl(52,7%,8%),                  0 8px 0 hsl(52,7%,6%),                  0 0 5px rgba(0,0,0,.05),                  0 1px 3px rgba(0,0,0,.2),                  0 3px 5px rgba(0,0,0,.2),                  0 5px 10px rgba(0,0,0,.2),                  0 10px 10px rgba(0,0,0,.2),                  0 20px 20px rgba(0,0,0,.3);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+}
+a{
+    text-decoration: none;
+}
+section
+{
+  width: 100%;
+}
+
+.focus-color{
+    color: var(--focus-color);
+}
+.heading-color{
+  color : #000;
+	text-align : center;
+	font-weight : 400;
+	line-height : 1.1;
+	background : var(--heading-color);
+	margin : 0;
+	padding : 10px 0;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--main-color);
+    color: #fff;
+    text-align: center;
+    font-family: var(--patua-font);
+    font-weight: 300;
+    word-spacing: 4px;
+  }
+  
+  
+
+  
+
+ 
+  
+
